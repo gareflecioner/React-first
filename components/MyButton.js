@@ -1,9 +1,8 @@
-import Button from 'react-bootstrap/Button';
 
-function MyButton() {
+ export  const MyButton=({children, ...props}) => {
   return (
     <>
-      <button type='button' className="btn btn-outline-danger">Отправить</button>
+      <button {...props} type='button' className="btn btn-outline-danger">{children}</button>
      
     </>
   );

@@ -1,10 +1,11 @@
-import React,{Fragment} from "react"
-
-
+import React from "react"
+import FullCarousel from "../components/FullCarousel";
 export const Main = () => (
 
 <>
-    
+    <FullCarousel>
+
+    </FullCarousel>
 </>
 
 );

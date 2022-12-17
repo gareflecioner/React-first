@@ -20,8 +20,8 @@ export const Navbar=() => (
           <li className="nav-item">
           <NavLink
             className="nav-link" 
-            to="/recommendations" 
-            >Рекомендации</NavLink>
+            to="/posts" 
+            >Все рецензии</NavLink>
           </li>
           <li className="nav-item">
           <NavLink

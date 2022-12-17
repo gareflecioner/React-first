@@ -9,11 +9,11 @@ export const Form = () => (
   </div>
   <div className="form-group">
     <label for="FormControl">Исполнитель.</label>
-    <textarea className="form-control" id="FormControl" rows="1"></textarea>
+    <textarea className="form-control" id="FormControl" rows="1"placeholder="Исполнитель."></textarea>
   </div>
   <div className="form-group">
     <label for="FormControl">Название Альбома.</label>
-    <textarea className="form-control" id="FormControl" rows=""></textarea>
+    <textarea className="form-control" id="FormControl" rows="1"placeholder="Название Альбома." ></textarea>
   </div>
 </form>
 );
