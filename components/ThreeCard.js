@@ -1,19 +1,21 @@
 import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
-import Card1 from '../image/Card1.jpg'
+import Card4 from '../image/Card4.jpg'
+import Card5 from '../image/Card5.jpg'
+import Card6 from '../image/Card6.jpg'
 
-function ThreeCard() {
+function ThreeCard(props) {
   return (
     <CardGroup>
         <Card>
             <Card.Img variant='top'
-            src={Card1}/>
+            src={props.posts.img1}/>
             <Card.Body>
             <Card.Title>
-            Исполнитель- Альбом
+            {props.posts.title1}
             </Card.Title>
             <Card.Text>
-            Кратко об альбоме
+            {props.posts.text1}
             </Card.Text>
             </Card.Body>
             <Card.Link 
@@ -28,13 +30,13 @@ function ThreeCard() {
         </Card>
         <Card>
             <Card.Img variant='top'
-            src={Card1}/>
+            src={props.posts.img2}/>
             <Card.Body>
             <Card.Title>
-            Исполнитель- Альбом
+            {props.posts.title2}
             </Card.Title>
             <Card.Text>
-            Кратко об альбоме
+            {props.posts.text2}
             </Card.Text>
             </Card.Body>
             <Card.Link 
@@ -49,13 +51,13 @@ function ThreeCard() {
         </Card>
         <Card>
             <Card.Img variant='top'
-            src={Card1}/>
+            src={props.posts.img3}/>
             <Card.Body>
             <Card.Title>
-            Исполнитель- Альбом
+            {props.posts.title3}
             </Card.Title>
             <Card.Text>
-            Кратко об альбоме
+            {props.posts.text3}
             </Card.Text>
             </Card.Body>
             <Card.Link 
