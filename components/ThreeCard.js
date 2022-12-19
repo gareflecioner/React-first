@@ -1,8 +1,5 @@
 import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
-import Card4 from '../image/Card4.jpg'
-import Card5 from '../image/Card5.jpg'
-import Card6 from '../image/Card6.jpg'
 
 function ThreeCard(props) {
   return (
@@ -11,15 +8,15 @@ function ThreeCard(props) {
             <Card.Img variant='top'
             src={props.posts.img1}/>
             <Card.Body>
-            <Card.Title>
+            <h1><Card.Title>
             {props.posts.title1}
-            </Card.Title>
-            <Card.Text>
+            </Card.Title></h1>
+            <h6><Card.Text>
             {props.posts.text1}
-            </Card.Text>
+            </Card.Text></h6>
             </Card.Body>
-            <Card.Link 
-            href='#'>
+            <Card.Link class='container'
+            href={props.posts.url1}>
             Подробнее
             </Card.Link>
             <Card.Footer>
@@ -32,15 +29,15 @@ function ThreeCard(props) {
             <Card.Img variant='top'
             src={props.posts.img2}/>
             <Card.Body>
-            <Card.Title>
+            <h1><Card.Title>
             {props.posts.title2}
-            </Card.Title>
-            <Card.Text>
+            </Card.Title></h1>
+            <h6><Card.Text>
             {props.posts.text2}
-            </Card.Text>
+            </Card.Text></h6>
             </Card.Body>
-            <Card.Link 
-            href='#'>
+            <Card.Link class='container' 
+            href={props.posts.url2}>
             Подробнее
             </Card.Link>
             <Card.Footer>
@@ -53,15 +50,15 @@ function ThreeCard(props) {
             <Card.Img variant='top'
             src={props.posts.img3}/>
             <Card.Body>
-            <Card.Title>
+            <h1><Card.Title>
             {props.posts.title3}
-            </Card.Title>
-            <Card.Text>
+            </Card.Title></h1>
+            <h6><Card.Text>
             {props.posts.text3}
-            </Card.Text>
+            </Card.Text></h6>
             </Card.Body>
-            <Card.Link 
-            href='#'>
+            <Card.Link class='container'
+            href={props.posts.url3}>
             Подробнее
             </Card.Link>
             <Card.Footer>

@@ -35,6 +35,19 @@ export const Navbar=() => (
             to="/advise_on" 
             >Порекомендовать</NavLink>
           </li>
+          <li className="nav-item">
+          <NavLink
+            className="nav-link" 
+            
+            to="/SingUp" 
+            >Зарегистрироваться</NavLink>
+          </li>
+          <li className="nav-item">
+          <NavLink
+            className="nav-link" 
+            to="/LogIn" 
+            >Войти</NavLink>
+          </li>
         </ul>
       </div>
     </div>

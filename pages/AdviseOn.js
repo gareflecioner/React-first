@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {MyButton} from '../components/MyButton'
 import MyInput from '../components/MyInput'
-import CardB from '../components/CardB';
+
 
  export function AdviseOn() {
 

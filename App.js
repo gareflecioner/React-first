@@ -6,6 +6,10 @@ import {About} from './pages/About'
 import {Posts} from './pages/Posts'
 import {NotFound} from './pages/NotFound'
 import {AdviseOn} from './pages/AdviseOn'
+import { PageCard } from './pages/PageCard';
+import {SingUp} from './pages/SingUp'
+import { LogIn } from './pages/LogIn';
+import { Profile } from './pages/Profile';
 
 
 
@@ -18,6 +22,10 @@ function App() {
          <Route path='about' element ={<About/>}/>
          <Route path='posts' element ={<Posts/>}/>
          <Route path='advise_on' element ={<AdviseOn/>}/>
+         <Route path='PageCard' element ={<PageCard/>}/>
+         <Route path='SingUp' element ={<SingUp/>}/>
+         <Route path='LogIn' element ={<LogIn/>}/>
+         <Route path='Profile' element ={<Profile/>}/>
          <Route path='*' element ={<NotFound/>}/>
         </Route>
       </Routes>  

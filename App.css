@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.carousel {
+  padding: 60;
+}
+.carousel-item{
+  display: flex;
+  max-height: 500px;
+}
+.carousel-item img {
+  object-fit:cover ;
+}

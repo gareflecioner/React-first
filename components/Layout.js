@@ -10,6 +10,8 @@ export const Layout=() => (
             <Link to='/about'>О нас</Link>
             <Link to='/posts'>Все рецензии</Link>
             <Link to='/advise_on'>Порекомендовать</Link>
+            <Link to='/SingUp'>Зарегистрироваться</Link>
+            <Link to='/LogIn'>Войти</Link>
         </Navbar>
         <main className='container'>
             <Outlet/>
