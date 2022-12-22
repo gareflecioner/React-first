@@ -43,7 +43,21 @@
 .carousel-item{
   display: flex;
   max-height: 500px;
+  max-width: 500px;
 }
 .carousel-item img {
   object-fit:cover ;
 }
+
+.nav-link.active {
+  color: var(--color-active);
+  cursor: default;
+}
+.carousel{
+  width: 500px;
+}
+
+/* .h1{
+  text-align: right;
+  width: 600px;
+} */

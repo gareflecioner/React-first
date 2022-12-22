@@ -6,7 +6,7 @@ export const Comment=(...props)=> {
       <Card.Body>
         <Card.Title>{props.comments.name}</Card.Title>
         <Card.Text>
-        {props.comments.text}
+        {props.comments.opinion}
         </Card.Text>
       </Card.Body>
     </Card>

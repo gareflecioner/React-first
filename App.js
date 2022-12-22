@@ -21,8 +21,8 @@ function App() {
          <Route index element ={<Main/>}/>
          <Route path='about' element ={<About/>}/>
          <Route path='posts' element ={<Posts/>}/>
+         <Route path='posts/:id' element ={<PageCard/>}/>
          <Route path='advise_on' element ={<AdviseOn/>}/>
-         <Route path='PageCard' element ={<PageCard/>}/>
          <Route path='SingUp' element ={<SingUp/>}/>
          <Route path='LogIn' element ={<LogIn/>}/>
          <Route path='Profile' element ={<Profile/>}/>

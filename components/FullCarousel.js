@@ -19,8 +19,8 @@ export class FullCarousel extends Component {
                 alt='Image1'
             />
             <Carousel.Caption>
-                <h3>Image1</h3>
-                <p>Text1</p>
+                {/* <li>Скриптонит</li>
+                <p>Дом с нормальными явлениями.</p> */}
             </Carousel.Caption>    
         </CarouselItem>
         <CarouselItem>
@@ -30,8 +30,8 @@ export class FullCarousel extends Component {
                 alt='Image2'
             />
             <Carousel.Caption>
-                <h3>Image2</h3>
-                <p>Text2</p>
+                {/* <p>Image2</p>
+                <p>Text2</p> */}
             </Carousel.Caption>    
         </CarouselItem>
         <CarouselItem>
@@ -41,8 +41,8 @@ export class FullCarousel extends Component {
                 alt='Image3'
             />
             <Carousel.Caption>
-                <h3>Image3</h3>
-                <p>Text3</p>
+                {/* <p>Image3</p>
+                <p>Text3</p> */}
             </Carousel.Caption>    
         </CarouselItem>
       </Carousel>

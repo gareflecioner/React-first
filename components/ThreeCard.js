@@ -16,7 +16,7 @@ function ThreeCard(props) {
             </Card.Text></h6>
             </Card.Body>
             <Card.Link class='container'
-            href={props.posts.url1}>
+            href='/posts/:{id}'>
             Подробнее
             </Card.Link>
             <Card.Footer>

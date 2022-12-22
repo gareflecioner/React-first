@@ -2,14 +2,15 @@ import React, { useState } from 'react'
 import {MyButton} from '../components/MyButton'
 import MyInput from '../components/MyInput'
 import Comment from '../components/Comment';
+import  { useParams } from 'react-router-dom'
 
- export function PageCard() {
+export function PageCard() {
 
-const[comments,setComments]= useState([
+// const{id}=useParams ();
 
-  {id:1, name:'Name', opinion:'Opinion'},
-])
+// const[posts,setPosts] = useState(null)
 
+const[comments,setComments]= useState('')
 const [opinion,setOpinion] = useState('')
 const [name,setName] = useState('')
 
@@ -17,7 +18,6 @@ const [name,setName] = useState('')
 const PostComments=(e)=> {
   e.preventDefault()
   const newComments={
-    id:Date.now(),
     name,
     opinion,
   }
@@ -26,6 +26,15 @@ const PostComments=(e)=> {
 
   return (
     <>
+      {/* <div>
+        {posts && (
+          <>
+            <h1>{post.title}</h1>
+            <p>{post.body}</p>
+          </>
+        )}
+      </div> */}
+
       <h1>Отправьте нам ваш альбом.</h1>
       <div className='container py-2'/>
       <MyInput value={name} onChange={e=> setName(e.target.value)}
@@ -35,7 +44,7 @@ const PostComments=(e)=> {
        <div className='container py-2'/>
       <MyButton onClick={PostComments}>Отправить</MyButton>
 
-      <Comment comments={{name:name ,text:opinion }}/>
+      <Comment comments={comments}/>
 
     </>  
     
